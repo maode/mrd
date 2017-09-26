@@ -33,7 +33,7 @@ var argv = require('yargs')
 		type: 'string'
 	})
 	.usage('Usage: mrd <fileName> [title] [tag1 tag2 ……]')
-	.example('mrd test', '根据默认模板在默认路径下创建test.md')
+	.example('$ mrd test', '根据默认模板在默认路径下创建test.md')
 	.help('h')
 	.alias('h', 'help')
 	.epilog('copyright 2017')

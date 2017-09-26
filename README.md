@@ -1,8 +1,9 @@
 # mrd
 
-根据模版快速创建github博客文件。
+命令行工具，根据模版快速创建github博客文件。
 
-C:\Users\code0>mrd -h
+``` bash
+$ mrd -h
 Usage: mrd <fileName> [title] [tag1 tag2 ……]
 
 Options:
@@ -14,6 +15,7 @@ Options:
 
 
 Examples:
- `$ mrd test`  根据默认模板在默认路径下创建test.md
+ $ mrd test  根据默认模板在默认路径下创建test.md
 
 copyright 2017
+```
