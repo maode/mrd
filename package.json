@@ -1,0 +1,20 @@
+{
+  "name": "mrd",
+  "version": "1.0.0",
+  "description": "根据模板生成github博客文件",
+  "main": "bin/mrd",
+  "bin": {
+    "mrd": "bin/mrd"
+  },
+  "author": "Code0",
+  "license": "ISC",
+  "dependencies": {
+    "dateformat": "^3.0.2",
+    "nunjucks": "^3.0.1",
+    "shelljs": "^0.7.8"
+  },
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/maode/mrd.git"
+    }
+}
