@@ -73,4 +73,4 @@ var fpath= path.join(argv.t,fname+'.md');//合成生成文件的路径
 //根据模板生成文件
 fs.writeFileSync(fpath, compiledData);
 //用默认程序打开新生成的文件
-shell.exec(fpath);
+shell.exec("start /b "+fpath);
