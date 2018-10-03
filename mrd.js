@@ -74,3 +74,11 @@ var fpath= path.join(argv.t,fname+'.md');//合成生成文件的路径
 fs.writeFileSync(fpath, compiledData);
 //用默认程序打开新生成的文件
 shell.exec("start /b "+fpath);
+
+/**
+ *用环境变量中配置的指定程序打开新生成的文件
+ *环境变量MRD_EDIT_HOME的值为指定程序的路径。
+ *如: C:\Program Files\Yu Writer\Yu Writer.exe 
+ */
+//shell.exec('start " " "'+"%MRD_EDIT_HOME%"+'" '+'"'+fpath+'" >nul');
+//shell.exec("\"%MRD_EDIT_HOME%\" "+fpath+" >nul");
